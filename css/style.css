@@ -1,0 +1,15 @@
+@font-face {
+    font-family: DINNEXTL;
+    src: url(../fonts/DINNEXTLTARABIC-LIGHT-2-2.ttf);
+  }
+  *{ direction: rtl;}
+  :root{
+      --mainColor:#F4844B;
+      --sacndryColor:#f4834b2d;
+  }
+  body{
+       
+        font-family: DINNEXTL;
+        direction: rtl;
+      
+  }
