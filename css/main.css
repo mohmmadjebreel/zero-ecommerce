@@ -127,7 +127,7 @@ font-size: 30px;}
     background-color: #dbd6d66b;
     position: absolute;
     height: 2%;
-    left: 29%;
+    left: 32%;
     top: 12%;
     border-radius: 50px;
 }
@@ -220,6 +220,7 @@ color: var(--whiteColor);}
   border-radius: 2px;
   color:var(--blueColor);
   font-weight: bold;
+  border: 2px solid transparent;
 }
 .box-prices .btn a:hover {
   background: var(--textColor);
@@ -380,9 +381,17 @@ footer.footer ul.menu-footer li {
     .box-prices .btn {
       margin: 0 38%;
   }
+  .services .container{display: block;}
+  .services .container .width-50 {width: 100%;}
+  .service-2{display: none;}
+  .service-1{display: block;}
+  .box-card {
+    margin: 1% 0%;
+}
   .card-stores .card-store {
     margin: 0 1%;
 }
+.box-card .width-25{width: 50%;}
 .app{padding-bottom: 5%;}
 .app .container {
   display: block;
@@ -400,4 +409,5 @@ footer.footer ul.menu-footer li {
   .google-play, .app-store {
     margin-right: 1%;
 }
+.box-card .width-25{width: 50%;}
 }
